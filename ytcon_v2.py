@@ -9,7 +9,6 @@ if not os.path.isdir('Downloaded'):
 if not os.path.isfile("TBDownloaded.txt"):
     downloadLinks = open("TBDownloaded.txt", "x").close()
 
-listDownloadedFiles = os.listdir(sys.path[0]+'\Downloaded')
 listDownloadedLinks = []
 topHeaderColor = '#424C55'
 blockColor = '#D1CCDC'
